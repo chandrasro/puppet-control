@@ -5,7 +5,7 @@ forge 'https://forge.puppet.com'
 mod "puppetlabs/inifile",     '2.2.1'
 mod "puppetlabs/stdlib",      '4.25.1'
 mod "puppetlabs/concat",      '4.2.1'
-mod "puppetlabs/java",	      '1.6.0'
+#mod "puppetlabs/java",	      '1.6.0'
 mod "puppet/selinux",	      '0.8.0'
 mod "garethr/docker",	      '5.3.0'
 
@@ -19,12 +19,12 @@ mod "garethr/docker",	      '5.3.0'
 #   :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #   :ref    => 'master'
 
-mod 'ssh',
-	:git => 'https://github.com/chandrasro/puppet-selinux.git',
-	:ref => 'master'
-mod 'ntp',
-	:git => 'https://github.com/chandrasro/puppet-ntp.git',
-	:ref => 'master'
+#mod 'ssh',
+#	:git => 'https://github.com/chandrasro/puppet-selinux.git',
+#	:ref => 'master'
+#mod 'ntp',
+#	:git => 'https://github.com/chandrasro/puppet-ntp.git',
+#	:ref => 'master'
 mod 'role',
 	:git => 'https://github.com/chandrasro/puppet-role.git',
 	:ref => 'master'
