@@ -22,9 +22,9 @@ mod "garethr/docker",	      '5.3.0'
 #mod 'ssh',
 #	:git => 'https://github.com/chandrasro/puppet-selinux.git',
 #	:ref => 'master'
-mod 'ntp',
-	:git => 'https://github.com/chandrasro/puppet-ntp.git',
-	:ref => 'master'
+#mod 'ntp',
+#	:git => 'https://github.com/chandrasro/puppet-ntp.git',
+#	:ref => 'master'
 mod 'role',
 	:git => 'https://github.com/chandrasro/puppet-role.git',
 	:ref => 'master'
