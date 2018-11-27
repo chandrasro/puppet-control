@@ -8,8 +8,6 @@ mod 'puppetlabs/concat',      '4.2.1'
 mod 'puppetlabs/java',	      '1.6.0'
 
 
-
-
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
@@ -26,9 +24,9 @@ mod 'ssh',
 mod 'ntp',
 	:git => 'https://github.com/chandrasro/puppet-ntp.git',
 	:ref => 'master'
-mod 'role'
+mod 'role',
 	:git => 'https://github.com/chandrasro/puppet-role.git',
 	:ref => 'master'
-mod 'profile'
-	:git => ' https://github.com/chandrasro/puppet-profile.git',
+mod 'profile',
+	:git => 'https://github.com/chandrasro/puppet-profile.git',
 	:ref => 'master'
