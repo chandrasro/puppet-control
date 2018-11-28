@@ -19,12 +19,12 @@ mod "garethr/docker",	      '5.3.0'
 #   :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #   :ref    => 'master'
 
-#mod 'ssh',
-#	:git => 'https://github.com/chandrasro/puppet-selinux.git',
-#	:ref => 'master'
-#mod 'ntp',
-#	:git => 'https://github.com/chandrasro/puppet-ntp.git',
-#	:ref => 'master'
+mod 'ssh',
+	:git => 'https://github.com/chandrasro/puppet-selinux.git',
+	:ref => 'master'
+mod 'ntp',
+	:git => 'https://github.com/chandrasro/puppet-ntp.git',
+	:ref => 'master'
 mod 'role',
 	:git => 'https://github.com/chandrasro/puppet-role-1.git',
 	:ref => 'master'
