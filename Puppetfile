@@ -26,8 +26,8 @@ mod "garethr/docker",	      '5.3.0'
 #	:git => 'https://github.com/chandrasro/puppet-ntp.git',
 #	:ref => 'master'
 mod 'role',
-	:git => 'https://github.com/chandrasro/puppet-role.git',
-	:ref => 'master'
+	:git => 'https://github.com/chandrasro/puppet-role-1.git',
+	:ref => 'development'
 mod 'profile',
-	:git => 'https://github.com/chandrasro/puppet-profile.git',
-	:ref => 'master'
+	:git => 'https://github.com/chandrasro/puppet-profile-1.git',
+	:ref => 'development'
