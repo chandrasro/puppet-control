@@ -1,0 +1,11 @@
+---
+profile::nginx::vhosts:
+- 'fqdn' : 'chandrasro3.mylabserver.com'
+  'port' : 80
+  'server_aliases' : ''
+- 'fqdn' : 'chandrasro3b.mylabserver.com'
+  'port' : 80
+  'server_aliases' : 'chandrasro3b1.mylabserver.com'
+classes:
+- profile:nginx
+
