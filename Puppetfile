@@ -31,6 +31,10 @@ mod 'role',
 mod 'profile',
 	:git => 'https://github.com/chandrasro/puppet-profile-1.git',
 	:ref => 'master'
+<<<<<<< HEAD
 mod 'nginx'
+=======
+mod 'nginx',
+>>>>>>> 777aedcc8d87671042c29b828107227758f8011d
 	:git => 'git@github.com:chandrasro/puppet-nginx.git',
 	:ref => 'master'

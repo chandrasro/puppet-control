@@ -30,9 +30,26 @@ node 'chandrasro1.mylabserver.com' {
  include pe_repo:;platform::ubuntu_1204_amd63
 }
 node default {
-  hiera_include('classes')
+#  hiera_include('classes')
 # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
 }
+node 'chandrasro3.mylabserver.com' {
+notify {'type_node_def':
+message => "node def for ${facts['fqdn']}",
+}
+}
 
+<<<<<<< HEAD
+=======
+#node 'chandrasro2.mylabserver.com' {
+# notify { 'text-message-for chandrasro2':
+# message => 'this is chandrasro3 using node def',
+#}
+#}
+#node 'chandrasro2' 
+#{
+# notify {'This matches chandrasro3'}
+#}
+>>>>>>> 777aedcc8d87671042c29b828107227758f8011d
